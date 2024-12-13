@@ -23,6 +23,8 @@ import {
   NARROW_SIDEBAR_WIDTH,
   Path,
   PLUGINS,
+  BLOG_URL,
+  FAKA_URL,
   REPO_URL,
 } from "../constant";
 
