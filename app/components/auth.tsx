@@ -62,6 +62,7 @@ export function AuthPage() {
 
       <div className={styles["auth-title"]}>{Locale.Auth.Title}</div>
       <div className={styles["auth-tips"]}>{Locale.Auth.Tips}</div>
+      <div className={styles["auth-tips"]}>{Locale.Auth.Tips1}</div>
 
       <PasswordInput
         style={{ marginTop: "3vh", marginBottom: "3vh" }}
@@ -80,6 +81,7 @@ export function AuthPage() {
       {!accessStore.hideUserApiKey ? (
         <>
           <div className={styles["auth-tips"]}>{Locale.Auth.SubTips}</div>
+          <div className={styles["auth-tips"]}>{Locale.Auth.SubTips1}</div>
           <PasswordInput
             style={{ marginTop: "3vh", marginBottom: "3vh" }}
             aria={Locale.Settings.ShowPassword}
