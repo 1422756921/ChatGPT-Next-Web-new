@@ -233,8 +233,8 @@ export function SideBar(props: { className?: string }) {
       {...props}
     >
       <SideBarHeader
-        title="NextChat"
-        subTitle="Build your own AI assistant."
+        title="ChatGPT-青云依兮"
+        subTitle="构建自己的人工智能助手"
         logo={<ChatGptIcon />}
         shouldNarrow={shouldNarrow}
       >
@@ -259,6 +259,12 @@ export function SideBar(props: { className?: string }) {
             onClick={() => setShowPluginSelector(true)}
             shadow
           />
+      <a href={FAKA_URL} target="_blank">
+        <IconButton
+          text={shouldNarrow ? undefined : Locale.Mask.faka}
+          shadow
+        />
+      </a>
         </div>
         {showPluginSelector && (
           <Selector
