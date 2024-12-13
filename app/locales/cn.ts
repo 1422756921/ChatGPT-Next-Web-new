@@ -598,7 +598,7 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的聊天",
-    BotHello: "有什么可以帮你的吗，如有问题请联系QQ：[1422756921](http://wpa.qq.com/msgrd?v=3&uin=1422756921&site=qq&menu=yes)",
+    BotHello: "有什么可以帮你的吗，[点击这里更换密钥](/#/auth),如有问题请联系QQ：[1422756921](http://wpa.qq.com/msgrd?v=3&uin=1422756921&site=qq&menu=yes)",
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) => "这是历史聊天总结作为前情提要：" + content,
