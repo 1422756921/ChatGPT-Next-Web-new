@@ -691,8 +691,8 @@ const en: LocaleType = {
     },
   },
   Plugin: {
-    Blog: "Blog",
-    Faka: "Key",
+    blog: "Blog",
+    faka: "Key",
     Name: "Plugin",
     Page: {
       Title: "Plugins",
