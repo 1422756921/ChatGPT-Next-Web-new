@@ -732,6 +732,8 @@ const en: LocaleType = {
     },
   },
   Mask: {
+    blog: "博客",
+    faka: "卡密",
     Name: "Mask",
     Page: {
       Title: "Prompt Template",
