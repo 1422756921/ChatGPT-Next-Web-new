@@ -10,12 +10,12 @@ const en: LocaleType = {
   Error: {
     Unauthorized: isApp
       ? `😆 Oops, there's an issue. No worries:
-     \\ 1️⃣ New here? [Click to start chatting now 🚀](${SAAS_CHAT_UTM_URL})
-     \\ 2️⃣ Want to use your own OpenAI resources? [Click here](/#/settings) to change settings ⚙️`
+        \\ 1️⃣  If you want to consume your OpenAI resources, click here (/#/settings) to modify the settings ⚙️
+        \\ 2️⃣  Need key to contact QQ: [1422756921](https://qm.qq.com/q/EnynD1KL04)[Qingyun Blog](https://blog.aerr.cn)`
       : `😆 Oops, there's an issue. Let's fix it:
-     \ 1️⃣ New here? [Click to start chatting now 🚀](${SAAS_CHAT_UTM_URL})
-     \ 2️⃣ Using a private setup? [Click here](/#/auth) to enter your key 🔑
-     \ 3️⃣ Want to use your own OpenAI resources? [Click here](/#/settings) to change settings ⚙️
+        \ 1️⃣  If you are using a private deployment version, click here (/#/auth) to enter the access key 🔑
+        \ 2️⃣  If you want to consume your OpenAI resources, click here (/#/settings) to modify the settings ⚙️
+        \ 3️⃣  Need key to contact QQ: [1422756921](https://qm.qq.com/q/EnynD1KL04)[Qingyun Blog](https://blog.aerr.cn)
      `,
   },
   Auth: {
@@ -26,7 +26,7 @@ const en: LocaleType = {
     Input: "access code",
     Confirm: "Confirm",
     Later: "Later",
-    SaasTips: "Too Complex, Use Immediately Now",
+    SaasTips: "If you have any questions, please contact QQ: 1422756921",
     TopTips:
       "🥳 NextChat AI launch promotion: Instantly unlock the latest models like OpenAI o1, GPT-4o, Claude-3.5!",
   },
@@ -640,7 +640,7 @@ const en: LocaleType = {
   },
   Store: {
     DefaultTopic: "New Conversation",
-    BotHello: "Hello! How can I assist you today?",
+    BotHello: "Is there anything I can help you with? [Click here to change key] (/#/auth). If you have any questions, please contact QQ: [1422756921](https://qm.qq.com/q/EnynD1KL04)",
     Error: "Something went wrong, please try again later.",
     Prompt: {
       History: (content: string) =>
@@ -691,6 +691,8 @@ const en: LocaleType = {
     },
   },
   Plugin: {
+    Blog: "Blog",
+    Faka: "Key",
     Name: "Plugin",
     Page: {
       Title: "Plugins",
